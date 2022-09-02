@@ -1,0 +1,1 @@
+For this problem I use two variables to track the min and max values and update them as I iterate through the array. This allows for a time complexity of O(n) and a space complexity of O(1).

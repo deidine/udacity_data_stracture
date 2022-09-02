@@ -1,0 +1,1 @@
+The time complexity of rearrange_digits() is O(n log(n)), where n is the length of the input list. The space complexity is O(n), where n is the length of the largest sum stored as a string in the output array.

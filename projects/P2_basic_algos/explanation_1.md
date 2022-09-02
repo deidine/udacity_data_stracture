@@ -1,0 +1,1 @@
+For this problem I used a variation of binary search to achieve O(log(n)) time complexity and O(1) space complexity.
