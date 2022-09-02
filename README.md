@@ -22,5 +22,3 @@ Part 4: Advanced Algorithms
   - Project: [Route Planner](/projects/P3_route_planner)
 
 ## Certificate of Completion
-
-![Certificate of Completion](certificate_of_completion.png)
