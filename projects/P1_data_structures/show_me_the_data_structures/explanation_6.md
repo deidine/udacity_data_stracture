@@ -1,0 +1,5 @@
+For this problem I used sets to keep track of unique values in each linked list to help determine which values should exist in the output list. I decided not to alter the original input lists so they can be fed into multiple functions without adverse effects.
+
+The union() method takes O(n + m) time, where n is the length of llist_1 and m is the length of llist_2. Since my implementation of the LinkedList class keeps track of the tail pointer, building the output list takes O(1) time. The space complexity is O(m + b), where m is the number of unique values from llist_1 and llist_2 stored in the seen set, and b is the length of the output list.
+
+The intersection() method takes O(n + m) time, where n is the length of llist_1 and m is the length of llist_2. The space complexity is O(n + 2b), where n is the number of unique values from llist_1 stored in the llist_1_values set, and b is the number of unique values that exist in llist_1, llist_2, and also the length of the output list.
